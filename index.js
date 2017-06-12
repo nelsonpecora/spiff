@@ -4,7 +4,7 @@ var File = require('vinyl-rw');
 var assign = require('object-assign');
 var globParent = require('glob-parent');
 var globby = require('globby');
-var list = require('list-promise');
+var list = require('list-promise').default;
 var path = require('path');
 var trash = require('trash');
 
